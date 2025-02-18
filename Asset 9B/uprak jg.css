@@ -1,0 +1,32 @@
+#products {
+    width: 95%;
+    text-align: center;
+    margin: 40px auto;
+}
+#products h2 {
+    color: #ff0000;
+}
+.cards {
+    border: 1px dashed #ff0000;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    width: 350px;
+    border: 1px solid #ffffff;
+}
+.card img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card h3 {
+    color: black;
+}
+.card a button {
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    padding: 8px 25px;
+}
